@@ -1,0 +1,1039 @@
+[
+  {
+    "scene": "离别预演",
+    "phases": [
+      { ///灯亮///0
+        "isStop": true,
+        "time": 30,
+        "introduce": "灯亮",
+        "LightState": [
+          {
+            "light_port": "01",
+            "light_file": "101",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.62",
+            "movie_file": "0000",
+            "isCycle": false,
+            "isVanish": false
+          },
+          {
+            "movie_ip": "192.168.2.234",
+            "movie_file": "0000",
+            "isCycle": true,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+        ]
+      },
+      { ///投影循环///1
+        "isStop": true,
+        "time": 30,
+        "introduce": "投影循环",
+        "LightState": [
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.62",
+            "movie_file": "0201",
+            "isCycle": false,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+        ]
+      },
+      { ///灯灭，投影关///2
+        "isStop": false,
+        "time": 4,
+        "introduce": "灯灭，投影关",
+        "LightState": [
+          {
+            "light_port": "01",
+            "light_file": "102",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+
+        ],
+        "projectStates": [
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "离别",
+    "phases": [
+      { ///文字雨，路灯渐灭///3
+        "isStop": false,
+        "time": 80,
+        "introduce": "文字雨，路灯渐灭",
+        "LightState": [
+          {
+            "light_port": "01",
+            "light_file": "103",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.25",
+            "project_name": "11"
+          }
+        ]
+      },
+      { ///文字雨结束街景接爆炸，灯光爆炸，血战预演灯亮///4
+        "isStop": false,
+        "time": 1,
+        "introduce": "灯光常亮",
+        "LightState": [
+          {
+            "light_port": "01",
+            "light_file": "007",
+            "cycleType": 1
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.234",
+            "movie_file": "0101",
+            "isCycle": true,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "血战预演",
+    "phases": [
+      { //灯光常亮///5
+        "isStop": true,
+        "time": 30,
+        "introduce": "灯光常亮",
+        "LightState": [
+          {
+            "light_port": "02",
+            "light_file": "001",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+        ]
+      },
+      { //灯光灭投影循环///6
+        "isStop": true,
+        "time": 30,
+        "introduce": "投影循环",
+        "LightState": [
+          {
+            "light_port": "02",
+            "light_file": "102",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.68",
+            "movie_file": "0201",
+            "isCycle": true,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "血战",
+    "phases": [
+      { //船灯+墙灯开，投影开，离别主场景还原///7
+        "isStop": false,
+        "time": 65,
+        "introduce": "船灯+墙灯开",
+        "LightState": [
+          {
+            "light_port": "02",
+            "light_file": "003",
+            "cycleType": 0
+          },
+          {
+            "light_port": "01",
+            "light_file": "000",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.68",
+            "movie_file": "0000",
+            "isCycle": true,
+            "isVanish": false
+          },
+          {
+            "movie_ip": "192.168.2.234",
+            "movie_file": "0000",
+            "isCycle": true,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.80",
+            "project_name": "2"
+          },
+          {
+            "project_ip": "192.168.2.81",
+            "project_name": "2"
+          },
+          {
+            "project_ip": "192.168.2.25",
+            "project_name": "9"
+          }
+        ]
+      },
+      { //灌阳激光+生命走廊///8
+        "isStop": false,
+        "time": 18,
+        "introduce": "灌阳激光+生命走廊",
+        "LightState": [
+          {
+            "light_port": "02",
+            "light_file": "004",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+        ]
+      },
+      { //全州灌阳兴安激光+电报///9
+        "isStop": false,
+        "time": 56,
+        "introduce": "全州灌阳兴安激光+电报",
+        "LightState": [
+          {
+            "light_port": "02",
+            "light_file": "005",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+        ]
+      },
+      { //飞机+血雾渗出///10
+        "isStop": false,
+        "time": 47,
+        "introduce": "飞机+血雾渗出",
+        "LightState": [
+          {
+            "light_port": "02",
+            "light_file": "006",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+        ]
+      },
+      { //争吵///11
+        "isStop": false,
+        "time": 76,
+        "introduce": "争吵",
+        "LightState": [
+          {
+            "light_port": "02",
+            "light_file": "007",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+        ]
+      },
+      { //爆炸///12
+        "isStop": false,
+        "time": 5,
+        "introduce": "爆炸",
+        "LightState": [
+          {
+            "light_port": "02",
+            "light_file": "008",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "转折预演",
+    "phases": [
+      { //开灯///13
+        "isStop": true,
+        "time": 30,
+        "introduce": "开灯",
+        "LightState": [
+          {
+            "light_port": "03",
+            "light_file": "101",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+        ]
+      },
+      { //进门站好放投影///14
+        "isStop": true,
+        "time": 30,
+        "introduce": "进门站好放投影",
+        "LightState": [
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.61",
+            "movie_file": "0201",
+            "isCycle": false,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.80",
+            "project_name": "1"
+          },
+          {
+            "project_ip": "192.168.2.81",
+            "project_name": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "转折", ///时间码场景
+    "phases": [
+      { ///预演区收///15
+        "isStop": false,
+        "time": 3,
+        "introduce": "预演区收",
+        "LightState": [
+          {
+            "light_port": "03",
+            "light_file": "102",
+            "cycleType": 0
+          },
+          {
+            "light_port": "02",
+            "light_file": "000",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.61",
+            "movie_file": "0000",
+            "isCycle": true,
+            "isVanish": true
+          }
+        ],
+        "projectStates": [
+        ]
+      },
+      { ///开灯，放投影///16
+        "isStop": true,
+        "time": 30,
+        "introduce": "开灯，放投影",
+        "LightState": [
+          {
+            "light_port": "03",
+            "light_file": "103",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.53",
+            "project_name": "2"
+          }
+        ]
+      },
+      { ///灭转折灯光///17
+        "isStop": false,
+        "time": 3,
+        "introduce": "灭转折灯光",
+        "LightState": [
+          {
+            "light_port": "03",
+            "light_file": "000",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.53",
+            "project_name": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "绝渡预演",
+    "phases": [
+      { ///亮绝渡预演区，放音乐///18
+        "isStop": true,
+        "time": 30,
+        "introduce": "绝渡灯亮",
+        "LightState": [
+          {
+            "light_port": "03",
+            "light_file": "105",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.70",
+            "movie_file": "0201",
+            "isCycle": true,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "绝渡", ///时间码场景
+    "phases": [
+      { ///亮灯///19
+        "isStop": false,
+        "time": 280,
+        "introduce": "绝渡灯亮",
+        "LightState": [
+          {
+            "light_port": "03",
+            "light_file": "106",
+            "cycleType": 0
+          },
+          {
+            "light_port": "04",
+            "light_file": "002",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.69",
+            "movie_file": "0201",
+            "isCycle": false,
+            "isVanish": false
+          },
+          {
+            "movie_ip": "192.168.2.70",
+            "movie_file": "0000",
+            "isCycle": true,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "寒索预演",
+    "phases": [
+      { ///寒索预演灯亮///20
+        "isStop": true,
+        "time": 30,
+        "introduce": "寒索预演灯亮",
+        "LightState": [
+          {
+            "light_port": "04",
+            "light_file": "003",
+            "cycleType": 0
+          },
+          {
+            "light_port": "05",
+            "light_file": "001",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+
+        ],
+        "projectStates": [
+        ]
+      },
+      { ///寒索预演灯灭投影开///21
+        "isStop": true,
+        "time": 30,
+        "introduce": "预演灯灭投影开",
+        "LightState": [
+          {
+            "light_port": "04",
+            "light_file": "004",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.67",
+            "movie_file": "0201",
+            "isCycle": true,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "寒索",
+    "phases": [
+      { ///第一块木板铺上音乐起///22
+        "isStop": false,
+        "time": 1,
+        "introduce": "过桥",
+        "LightState": [
+          {
+            "light_port": "04",
+            "light_file": "104",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.66",
+            "movie_file": "0101",
+            "isCycle": false,
+            "isVanish": false
+          },
+          {
+            "movie_ip": "192.168.2.67",
+            "movie_file": "0000",
+            "isCycle": true,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+        ]
+      },
+      { ///第一块木板铺上音乐起///23
+        "isStop": true,
+        "time": 30,
+        "introduce": "过桥",
+        "LightState": [
+          {
+            "light_port": "05",
+            "light_file": "002",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+
+        ],
+        "projectStates": [
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "危崖预演",
+    "phases": [
+      { ///雪山预演亮灯亮投影///24
+        "isStop": true,
+        "time": 30,
+        "introduce": "预演亮灯亮投影",
+        "LightState": [
+          {
+            "light_port": "06",
+            "light_file": "101",
+            "cycleType": 0
+          },
+          {
+            "light_port": "05",
+            "light_file": "000",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.71",
+            "movie_file": "0201",
+            "isCycle": true,
+            "isVanish": false
+          },
+          {
+            "movie_ip": "192.168.2.66",
+            "movie_file": "0000",
+            "isCycle": false,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.17",
+            "project_name": "5"
+          },
+          {
+            "project_ip": "192.168.2.18",
+            "project_name": "5"
+          }
+        ]
+      },
+      { ///雪山预演关灯关投影///25
+        "isStop": false,
+        "time": 2,
+        "introduce": "关灯关投影",
+        "LightState": [
+          {
+            "light_port": "06",
+            "light_file": "102",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.71",
+            "movie_file": "0000",
+            "isCycle": true,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "危崖", ///时间码
+    "phases": [
+      { ///放第一个视频///26
+        "isStop": true,
+        "time": 99,
+        "introduce": "人进入下雪",
+        "LightState": [
+          {
+            "light_port": "06",
+            "light_file": "103",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.17",
+            "project_name": "6"
+          },
+          {
+            "project_ip": "192.168.2.18",
+            "project_name": "6"
+          }
+        ]
+      },
+      { ///放第二个视频///27
+        "isStop": false,
+        "time": 5,
+        "introduce": "关雪花机",
+        "LightState": [
+          {
+            "light_port": "06",
+            "light_file": "104",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "黑暗预演",
+    "phases": [
+      { ///亮草地预演///28
+        "isStop": true,
+        "time": 10,
+        "introduce": "亮草地预演",
+        "LightState": [
+          {
+            "light_port": "06",
+            "light_file": "105",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+        ]
+      },
+      { ///灯灭投影亮///29
+        "isStop": true,
+        "time": 30,
+        "introduce": "灯灭投影亮",
+        "LightState": [
+          {
+            "light_port": "06",
+            "light_file": "106",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.72",
+            "movie_file": "0201",
+            "isCycle": false,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.17",
+            "project_name": "4"
+          },
+          {
+            "project_ip": "192.168.2.18",
+            "project_name": "4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "黑暗",
+    "phases": [
+      { ///一片漆黑放背景音///30
+        "isStop": true,
+        "time": 30,
+        "introduce": "一片漆黑放背景音",
+        "LightState": [
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.72",
+            "movie_file": "0000",
+            "isCycle": true,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.82",
+            "project_name": "3"
+          },
+          {
+            "project_ip": "192.168.2.83",
+            "project_name": "3"
+          }
+        ]
+      },
+      { ///闪灯亮放投影闪电///31
+        "isStop": false,
+        "time": 2,
+        "introduce": "放投影闪电",
+        "LightState": [
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.82",
+            "project_name": "4"
+          },
+          {
+            "project_ip": "192.168.2.83",
+            "project_name": "4"
+          }
+        ]
+      },
+      { ///闪灯亮放投影闪电///32
+        "isStop": true,
+        "time": 12,
+        "introduce": "放投影闪电",
+        "LightState": [
+          {
+            "light_port": "07",
+            "light_file": "002",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "决战预演",
+    "phases": [
+      { ///亮预演区///33
+        "isStop": true,
+        "time": 30,
+        "introduce": "亮预演区",
+        "LightState": [
+          {
+            "light_port": "07",
+            "light_file": "102",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+        ]
+      },
+      { ///收光放投影///34
+        "isStop": true,
+        "time": 27,
+        "introduce": "收光放投影",
+        "LightState": [
+          {
+            "light_port": "07",
+            "light_file": "103",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.73",
+            "movie_file": "0201",
+            "isCycle": true,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.82",
+            "project_name": "3"
+          },
+          {
+            "project_ip": "192.168.2.83",
+            "project_name": "3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "决战",
+    "phases": [
+      { ///进去///35
+        "isStop": true,
+        "time": 30,
+        "introduce": "人进入",
+        "LightState": [
+          {
+            "light_port": "08",
+            "light_file": "101",
+            "cycleType": 1
+          },
+          {
+            "light_port": "07",
+            "light_file": "000",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.73",
+            "movie_file": "0000",
+            "isCycle": true,
+            "isVanish": true
+          }
+        ],
+        "projectStates": [
+        ]
+      },
+      { ///爆炸///36
+        "isStop": false,
+        "time": 3,
+        "introduce": "爆炸",
+        "LightState": [
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.64",
+            "movie_file": "0201",
+            "isCycle": true,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+        ]
+      },
+      { ///37
+        "isStop": true,
+        "time": 25,
+        "introduce": "爆炸",
+        "LightState": [
+          {
+            "light_port": "08",
+            "light_file": "102",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+        ]
+      },
+      { ///38
+        "isStop": true,
+        "time": 30,
+        "introduce": "会师",
+        "LightState": [
+          {
+            "light_port": "08",
+            "light_file": "006",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.64",
+            "movie_file": "0202",
+            "isCycle": false,
+            "isVanish": false
+          }
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.85",
+            "project_name": "P1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "飞跃预演",
+    "phases": [
+      { ///39
+        "isStop": true,
+        "time": 30,
+        "introduce": "人进入开灯",
+        "LightState": [
+          {
+            "light_port": "08",
+            "light_file": "007",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.64",
+            "movie_file": "0000",
+            "isCycle": true,
+            "isVanish": true
+          }
+        ],
+        "projectStates": [
+        ]
+      },
+      { ///40
+        "isStop": true,
+        "time": 30,
+        "introduce": "放预演投影",
+        "LightState": [
+          {
+            "light_port": "08",
+            "light_file": "106",
+            "cycleType": 0
+          }
+        ],
+        "MovieStates": [
+          {
+            "movie_ip": "192.168.2.63",
+            "movie_file": "0201",
+            "isCycle": false,
+            "isVanish": true
+          }
+        ],
+        "projectStates": [
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "飞跃",
+    "phases": [
+      { ///人做好，放投影，摇摇椅启动///41
+        "isStop": false,
+        "time": 4,
+        "introduce": "投影开，摇摇椅启动",
+        "LightState": [
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.85",
+            "project_name": "EB BE 00 05 00 00 00 00 00 00 00"
+          }
+        ]
+      },
+      { ///人做好，放投影，摇摇椅启动///42
+        "isStop": true,
+        "time": 30,
+        "introduce": "投影开，摇摇椅启动",
+        "LightState": [
+        ],
+        "MovieStates": [
+        ],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.85",
+            "project_name": "P2"
+          }
+        ]
+      },
+      {
+        "isStop": true,
+        "time": 1,
+        "introduce": "结束",
+        "LightState": [],
+        "MovieStates": [],
+        "projectStates": [
+          {
+            "project_ip": "192.168.2.85",
+            "project_name": "P0"
+          }
+        ]
+      }
+    ]
+  }
+]

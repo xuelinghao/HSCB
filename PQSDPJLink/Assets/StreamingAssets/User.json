@@ -1,0 +1,20 @@
+{
+  "version": "1.1",
+  "users": [
+    {
+      "user": "hscb",
+      "password": "123456",
+      "jurisdiction": 0
+    },
+    {
+      "user": "HSCB",
+      "password": "123456",
+      "jurisdiction": 1
+    },
+    {
+      "user": "admin",
+      "password": "123456",
+      "jurisdiction": 1
+    }
+  ]
+}
